@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326 126.46">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #1fc5db;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Highgate-BlackItalic, Highgate;
+        font-size: 78.72px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #e6aa4a;
+      }
+
+      .cls-6 {
+        letter-spacing: -.07em;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(17.84 83.12)"><tspan x="0" y="0">HIT</tspan></text>
+  <text class="cls-1" transform="translate(138.15 105.12)"><tspan class="cls-6" x="0" y="0">F</tspan><tspan class="cls-5" x="37.47" y="0">A</tspan></text>
+  <path class="cls-2" d="M260.26,84.59l20.89-17.32-3.11,20.04-21.06,17.32h-19.91s6.26-30.81,8.64-54.55h20.4l-5.85,34.51Z"/>
+  <path class="cls-2" d="M317.23,50.07l3.28-9.43-8.81,4.83-9.34-3.36,4.79,8.79-3.32,9.55,8.87-4.94,9.38,3.23-4.85-8.68ZM312.49,52.97l-4.34,2.36,1.64-4.6-2.47-4.45,4.66,1.74,4.43-2.4-1.68,4.53,2.28,4.4-4.51-1.6Z"/>
+  <path class="cls-2" d="M305.11,84.59l4.2-24.74-9.16,4.85,5.04-13.48-.63-1.13h-14.01c-2.38,23.74-8.64,54.55-8.64,54.55h19.91l21.06-17.32,3.11-20.04-20.89,17.32Z"/>
+  <polygon class="cls-4" points="19.66 37.15 0 24.93 18.06 23.36 13.72 .45 30.54 15.89 40.63 0 42.32 21.35 39.93 21.41 38.87 7.4 31.12 19.76 17.39 7.15 21 25.37 6.8 26.55 20.84 35.14 19.66 37.15"/>
+</svg>

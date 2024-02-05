@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-size: 18px;
+  color: white;
+  font-family: highgate;
+
+  background: #207959;
+  background-image: url("../img/2_5_bg_long.png");
+  background-size: 100vw auto;
+  background-position: center;
+}
+
+/*BANNER*/
+
+#banner {
+  width: 100vw;
+  height: 10vh;
+
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+
+  background: #0D422F;
+}
+
+.switch {
+  height: 6vh;
+
+  position: fixed;
+  top: 2vh;
+  right: 2%;
+
+  transition: all 0.3s;
+}
+
+.switch:hover {
+  transform: scale(1.1);
+}
+
+#logo_div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+#logo_div
+  figure {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  }
+
+.hitfall_logo {
+  height: 7.5vh;
+  transition: all 0.3s;
+}
+
+.hitfall_logo:hover {
+  transform: scale(1.1);
+}
+
+#logo_div
+  figcaption {
+    padding-left: 1.5vw;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/*SIDE BAR*/
+
+#icon_sidebar {
+  width: 8vh;
+  height: 100vh;
+
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+
+  background: #0D422F;
+  }
+
+#icon_sidebar
+  img {
+    height: 4.25vh;
+    padding-top: 1.25vh;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.stock_icon {
+  transition: all 0.3s;
+}
+
+.stock_icon:hover {
+  transform: scale(1.2);
+}
+
+/*MAIN CONTENT*/
+
+#cc_content {
+  text-align: center;
+}
+
+#cc_content
+  h1 {
+    padding-top: 10vh;
+  }
+
+#cc_content
+  figure {
+    padding-top: 1vh;
+    text-align: center;
+  }
+
+.custom_css {
+  background: #092E2050;
+  padding-top: 2vmax;
+  padding-left: 3vmax;
+  padding-right: 3vmax;
+  padding-bottom: 2vmax;
+
+  border-top: 1.75vmax ridge #1FC5DB;
+  border-left: 1.75vmax ridge #1FC5DB;
+  border-right: 1vmax groove #E6AA4A;
+  border-bottom: 1vmax groove #E6AA4A;
+  /*border-top-left-radius: 1.25vmax;
+  border-bottom-right-radius: 0.75vmax;*/
+}
+
+#cc_content
+  figcaption {
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+  }
+
+#credits {
+  position: relative;
+  height: 30vh;
+}
+
+#credits_text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 65%;
+  margin: auto;
+}
+
+  a {
+    color: #E6AA4A;
+  }
+
+  a:link, a:visited {
+    color: #E6AA4A;
+  }
+
+  a:hover {
+    color:  #F2D29E;
+  }
+
+  a:focus, a:active {
+    color:  #F2D29E;
+  }
+
+.btn {
+  background: #0D422F;
+  height: 5vh;
+  width: 10vw;
+
+  color: white;
+  font-family: highgate;
+  font-size: 1.75vh;
+
+  border: none;
+  border-top-left-radius: 1.25vmax;
+  border-bottom-right-radius: 0.75vmax;
+
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/*----------------------------pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 120vh) {
+
+#logo_div {
+  width: 75%;
+}
+
+#logo_div
+  figure {
+    width: 75%;
+  }
+
+.hitfall_logo {
+  height: 7.25vh;
+}
+
+#logo_div
+  figcaption {
+    padding-left: 2vw;
+    font-size: 1.8em;
+  }
+
+#icon_sidebar {
+  display: none;
+}
+
+#cc_content {
+  padding-bottom: 10vh;
+}
+
+#cc_content
+  h1 {
+    font-size: 2.6em;
+  }
+
+#cc_content
+  figcaption {
+    font-size: 1.8em;
+  }
+
+.custom_css {
+  min-width: 50vw;
+}
+
+#credits_text {
+  font-size: 1.8em;
+}
+
+.btn {
+
+  width: 36vw;
+
+  font-size: 1.65vh;
+}
+
+}
+
+/*----------------------------pixel breakpoint----------------------------*/
+
+@media screen and (max-height: 40vw) {
+
+#icon_sidebar {
+  display: none;
+}
+
+
+
+}
